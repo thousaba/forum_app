@@ -53,5 +53,5 @@ Bu proje, Flask ile geliştirilmiş, JWT tabanlı kimlik doğrulama sistemi bulu
 
 1. Depoyu klonla:
 ```bash
-git clone https://github.com/kullanici/forum_app.git
+git clone https://github.com/thousaba/forum_app.git
 cd forum_app
