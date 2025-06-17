@@ -12,7 +12,7 @@ from commands import make_admin
 def create_app():
   app= Flask(__name__)
   
-  #app.config['JSON_AS_ASCII'] = False #OĞUZ'A SOR!
+  
   app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///blog.db'
   app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False
   app.config['JWT_SECRET_KEY']= 'starwars'
